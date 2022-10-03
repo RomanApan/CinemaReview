@@ -97,8 +97,8 @@
 				4D408F7D28EA150B00473C83 /* AppDelegate.swift */,
 				4D408F7F28EA150B00473C83 /* SceneDelegate.swift */,
 				4D408F9128EA16D900473C83 /* MainTabBarController.swift */,
-				4D408F9328EA16F000473C83 /* Critics */,
 				4D408F9E28EA17AD00473C83 /* Reviews */,
+				4D408F9328EA16F000473C83 /* Critics */,
 				4D408F8328EA150B00473C83 /* Main.storyboard */,
 				4D408FA728EA190800473C83 /* Fonts */,
 				4D408F8628EA150C00473C83 /* Assets.xcassets */,
@@ -123,8 +123,8 @@
 		4D408F9E28EA17AD00473C83 /* Reviews */ = {
 			isa = PBXGroup;
 			children = (
-				4D408F9F28EA17C900473C83 /* ReviewsTableViewCell.swift */,
 				4D408FA128EA17D800473C83 /* ReviewsViewController.swift */,
+				4D408F9F28EA17C900473C83 /* ReviewsTableViewCell.swift */,
 				4D408FA328EA17EA00473C83 /* GetReviewsFromApi.swift */,
 				4D408FA528EA17F800473C83 /* LoadingCell.swift */,
 			);

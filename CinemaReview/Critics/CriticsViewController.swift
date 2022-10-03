@@ -201,23 +201,3 @@ extension CriticsViewController: UITextFieldDelegate {
         return false
     }
 }
-
-// MARK: - DataCriticsDelegate
-
-extension CriticsViewController: DataCriticsDelegate {
-    func delegateName(index: Int) -> String {
-        return api.criticsData[index].display_name
-    }
-    
-    func delegateStatus(index: Int) -> String {
-        return api.criticsData[index].status
-    }
-    
-    func delegateBio(index: Int) -> String {
-        return api.criticsData[index].bio
-    }
-    
-    func delegateUrlPicture(index: Int) -> URL {
-        return URL(string: api.criticsData[index].multimedia?.resource.src ?? "vk.com/1")!
-    }
-}

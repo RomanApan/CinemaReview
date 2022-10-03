@@ -1,10 +1,3 @@
-protocol DataCriticsDelegate {
-    
-    func delegateName(index: Int) -> String
-    func delegateStatus(index: Int) -> String
-    func delegateBio(index: Int) -> String
-    func delegateUrlPicture(index: Int) -> URL
-}
 
 import UIKit
 import Kingfisher
@@ -12,8 +5,6 @@ import SafariServices
 
 class CriticViewController: UIViewController, SFSafariViewControllerDelegate {
     
-    private var delegateDataCritics: DataCriticsDelegate?
-
     private lazy var titleImage: UIImageView = {
         let imageView = UIImageView()
         imageView.backgroundColor = UIColor(red: 236/255, green: 240/255, blue: 248/255, alpha: 1)

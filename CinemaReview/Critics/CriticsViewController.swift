@@ -143,7 +143,6 @@ class CriticsViewController: UIViewController {
         let str = searchTextField.text ?? ""
         responseSearchTextField(str)
     }
-
     
     @objc
     private func dismissKeyboard() {

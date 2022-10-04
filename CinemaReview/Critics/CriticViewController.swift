@@ -206,7 +206,6 @@ extension CriticViewController {
     }
 }
 
-
 //MARK: settingTableView
 
 extension CriticViewController: UITableViewDelegate, UITableViewDataSource {

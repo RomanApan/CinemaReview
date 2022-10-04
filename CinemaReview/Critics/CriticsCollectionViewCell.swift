@@ -21,7 +21,6 @@ class CriticsCollectionViewCell: UICollectionViewCell {
         return imageView
     }()
     
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
         
@@ -58,5 +57,3 @@ class CriticsCollectionViewCell: UICollectionViewCell {
         ])
     }
 }
-
-

@@ -88,9 +88,9 @@ class GetReviewsFromApi {
         }
     }
         
-    func setImage(index: Int) -> URL {
+    func setImage(index: Int) -> URL? {
             let imageUrl = self.reviewsData[index].multimedia?.src ?? "vk.com/1"
             
-            return URL(string: imageUrl)!
+            return URL(string: imageUrl)
     }
 }

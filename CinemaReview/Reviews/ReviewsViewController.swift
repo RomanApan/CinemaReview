@@ -256,8 +256,8 @@ extension ReviewsViewController: UITableViewDelegate, UITableViewDataSource {
                 cell.titleImage.image = UIImage(named: "icon_placeholder")
                 cell.titleImage.contentMode = .center
             }
-
             return cell
+            
         } else {
             let cell = tableView.dequeueReusableCell(withIdentifier: idLoadCell, for: indexPath) as! LoadingCell
             cell.activityIndicator.startAnimating()
